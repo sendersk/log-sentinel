@@ -1,0 +1,6 @@
+services:
+  log-sentinel:
+    build: .
+    volumes:
+      - ./logs:/app/logs
+      - ./output:/app/output
